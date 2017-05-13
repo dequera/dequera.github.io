@@ -3,6 +3,34 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+b.span1{
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 55px;
+}
+
+span1 {
+font: normal 40px/50px Arial, sans-serif;
+display: inline-block;
+color: white;
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 0.5s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+/* 80% { top: -200px; } */
+}
+
 .container .container-sub{
   padding: 30px;
 }
@@ -19,14 +47,16 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-html,
-body {
+
+html,body {
   height: 100%;
   width: 100%;
 }
+
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
