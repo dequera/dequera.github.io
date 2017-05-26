@@ -28,8 +28,6 @@
         }
     })
 
-})(jQuery); // End of use strict
 
-mixpanel.track_links("#page-top", "in web", {
-        "referrer": document.referrer
-    });
+
+})(jQuery); // End of use strict

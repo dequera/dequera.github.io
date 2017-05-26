@@ -420,6 +420,29 @@ footer {
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
+.footer-content1{
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:5px;
+  padding-left:5px;
+  text-align: left;
+}
+.footer-content2{
+  padding:20px;
+  color: #fff;
+}
+.footer-content3 ul li{
+  list-style-type: none;
+  padding: 5px;
+  color: #D2D7D3;
+}
+.textFooter{
+  font: 14px 'arial';
+  color: #D2D7D3;
+}
+.footer-content3{
+  text-align: left;
+}
 footer p {
   font-size: 12px;
   margin: 0;
